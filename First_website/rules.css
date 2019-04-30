@@ -1,0 +1,17 @@
+.bio {
+  background: black;
+}
+
+div p {
+  color: red;
+}
+
+div p:nth-child(1) {
+  font-size: 21px;
+}
+
+div p[id="hashtags"] {
+  text-decoration: underline;
+  font-size: 30px;
+  color: lightblue;
+}

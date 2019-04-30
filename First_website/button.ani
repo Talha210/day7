@@ -1,0 +1,22 @@
+
+.button-primary {
+background: rgb(140, 122, 222);
+padding: 1% 1.45;
+texting-decoration: none;
+text-tranform: uppercase;
+color: white;
+font-family: sans-serif;
+transition: padding;
+}
+
+.<button-primary {
+  background: rgb(140, 122, 222);
+}
+
+.<button-dnager {
+  background: rgb(231, 65, 65);
+}
+
+.<button-primary:hover {
+  background: rgb(100, 83,180);
+}

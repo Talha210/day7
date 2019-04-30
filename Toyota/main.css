@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.main-header {
+  margin-top: 3px;
+  background-image: url('https://cdn.vehiclemall.com/medialibrary/dealergroup/845/slideshow/619/36ddf56c-ddbe-3ece-eb7812ccd9ae74a3.jpg');
+  height: 500px;
+  background-size: cover;
+  text-align: center;
+}
+
+h2 {
+  padding: 267px;
+  font-size: 50px;
+}
+
+.main-header h1 {
+  margin-top: auto;
+  padding-top: 10%;
+  font-size: 71px;
+}
+
+h1, h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.car-grid {
+  display: inline-grid;
+  grid-template: 250px / 375px 375px 375px;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.car-grid div {
+  background-image: url('http://mondeorijders.com/wp-content/uploads/2017/10/Picture4.png');
+  height: 500px;
+  background-size: cover;
+  text-align:center;
+}
+
+.grid-container {
+  text-align: center;
+}
+
+.main-button {
+  backgroud: red;
+  padding: 1% 1.8%;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.main-button:hover {
+  background: darkred;
+}
+
+.info-grid {
+  display: grid;
+  grid-template: 300px 300px / 300px;
+}
+
+.info-grid div:nth-child(2) {
+  backgroud-image: url()
+}
+
+#navbar {
+  padding-left: 5%;
+  position: fixed;
+  background: white;
+  width: 100;
+  border-bottom: 1px solid #333;
+}
+
+#navbar ul li {
+  display: inline;
+  padding: 0 30px;
+}
+
+
+#navbar ul li a {
+  text-decoration: none;
+  color: #333;
+}

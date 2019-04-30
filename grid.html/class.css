@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+}
+.countainer {
+  text-align: center;
+}
+
+.image-grid {
+  margin: 0 auto;
+  display: inline-grid;
+  grid-template: 200px 200px 200px / 200px 200px 200px;
+  grid-gap: 20px;
+}
+
+
+.image-grid div {
+  text-align:center;
+  background: blue;
+}
+
+.image-grid div:nth-child(3) {
+  background: red;
+}
+
+@keyframes fadeIn {
+  /* starting point and ending point */
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideFromleft {
+  from {
+    margin-right: 80%;
+  }
+
+  to {
+    margin-right: 0%;
+  }
+}
+
+.image-grid div:nth-child(7) {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.image-grid div:nth-child(5) {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}

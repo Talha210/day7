@@ -3,10 +3,37 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <style>
+      .grid {
+        display: grid;
+        grid-template: 300px /  40% 40%;
+      }
+
+      .grid section:nth-child(1) {
+        background: whitesmoke;
+      }
+
+      .grid section:nth-child(2) {
+        background: lightblue;
+      }
+    </style>
   </head>
   <body>
     <h1>Social Media</h1>
     <p>Join Millions of addicted chilren on this platform</p>
+
+    <div class="grid">
+      <section>
+        <form action="#" id="user1-form">
+          <label>Enter a message</label><br>
+          <textarea rows="8" cols="25" id='msg-content'></textarea>
+          <br>
+          <input type="submit" value="Send Message" id="user1-send-btn">
+        </form>
+      </section>
+      <section>Left</section>
+      <section>Right</section>
+    </div>
     <script src="main.js" charset="utf-8"></script>
   </body>
 </html>
